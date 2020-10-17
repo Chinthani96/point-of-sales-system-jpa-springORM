@@ -68,6 +68,7 @@ public class CustomerFormController {
 
     public void btnAddCustomer_OnAction(ActionEvent actionEvent) {
         //btn and textfield initializations
+        System.out.println(actionEvent);
         btnAddCustomer.setDisable(true);
         btnSave.setDisable(false);
         txtCustomerName.requestFocus();
